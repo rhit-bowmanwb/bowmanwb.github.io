@@ -34,11 +34,24 @@ body {
 
 .page-container {
     margin-top: 75px;
+    margin-bottom: 30px;
 }
 
 .resume-first-line {
     margin-left: 50px;
     font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.resume-bold {
+    margin-left: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.resume-italic {
+    margin-left: 50px;
     font-style: italic;
 }
 
