@@ -2,6 +2,11 @@ body {
     background: #DDDDDD;
 }
 
+footer {
+    width: 100%;
+    height: 100px;
+}
+
 .other-header {
     text-decoration: underline;
     font-size: 15px;
@@ -21,8 +26,8 @@ body {
 }
 
 #nelliePic {
-    width: 180px;
-    height: 262px;
+    width: 160px;
+    height: 230px;
     float: right;
     margin-bottom: 20px;
     margin-left: 5px;
@@ -34,7 +39,20 @@ body {
 
 .page-container {
     margin-top: 75px;
-    margin-bottom: 30px;
+}
+
+#resumeFooterImg {
+    object-fit: fill;
+    width: 100%;
+    max-height: 130%;
+    margin: 20px 0;
+}
+
+#resumeTopPic {
+    display: inline;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
 }
 
 .resume-first-line {
