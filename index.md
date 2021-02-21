@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>William Bowman</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">William Bowman</a>
+    <a class="navbar-brand other-header" href="#">About</a>
+    <a class="navbar-brand other-header" href="/portfolio.html">Portfolio</a>
+    <a class="navbar-brand other-header" href="/resume.html">Resume</a>
+  </nav>
+  <div id="aboutPage" class="container page-container">
+    <h1>About</h1>
+    <p>
+      <img id="myImage" src="/images/formal_pic.jpg" style="margin-right: 5px;">
+      <p>Hey there, my name is William (Willie) Bowman. I am currenty a Sophomore MA/CS double major at Rose-Hulman.
+        I went to high school in the small town of West Alexandria, Ohio at Twin Valley South High School, and I am the
+        first person
+        from my high school to attend Rose-Hulman.
+      </p>
+      <p>
+        I fell in love with mathematics, computer science, and learning in general my freshman year at Rose. Humans
+        always seem to have
+        pretty interesting theories about the things we can't see with our own eyes, take the dark side of the moon or
+        under our beds for example.
+        But mathematics and science in general gives us reason to make sense of the unknown instead of fear it. With
+        research and collective learning,
+        we are able to explain the unknown instead of accepting it as beyond ourselves.
+      </p>
+      <p>
+        There is so much to learn in this world, I have given up on trying to learn it all. Instead, I desire to become
+        one of
+        the best in what I do. I believe I can bring value to any company with the critical thinking skills of a math
+        major
+        and the technical and computational skills that a computer science major may bring. If there is anything I have
+        learned
+        since I began at Rose, it is how to learn on my own. The wealth of knowledge that humanity pocesses as a whole
+        far exceeds
+        the knowledge of the smartest man on Earth, whoever that may be. It would be foolish to rely on one's own
+        personal
+        repository of knowledge. To me, it is most admirable to seek help in the face of uncertainty. So, I have learned
+        to be
+        resourceful in my time here at Rose, and I intend to implement that skill into all of my future projects and
+        assignments.
+      </p>
+      <img id="nelliePic" src="/images/nellie.jpg">
+      <p>
+        On a less serious note, I am a fun-loving nature enthusiast who loves animals and almost all sports. I grew up
+        on a farm,
+        so I certainly know what it means to put in a hard days work. I am not afraid to get my hands dirty, although I
+        rarely do
+        when I am completing a problems set or coding up a website as I am now. In high school, I was the captain of
+        many sports teams
+        including the basketball team, track and field team, and the golf team. I am also on the basketball team at
+        Rose-Hulman, although
+        I have not yet achieved captain status. Exercising, working hard, and seeing the positive results gives my life
+        meaning
+        whenever I forget what this life is all about.
+      </p>
+      <p>
+        Also, in case you were wondering, the picture to the right features my puppy, Nellie Sue. She is a spoiled pup,
+        but
+        my family and I don't mind since she is so darn cute.
+      </p>
+    </p>
+  </div>
+  <footer>
+    <img id="resumeFooterImg" src="/images/sunset_footer.png">
+  </footer>
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/popper.js"></script>
+  <script src="scripts/bootstrap-material-design.js"></script>
+  <script>
+    $("body").bootstrapMaterialDesign();
+  </script>
+  <script src="/__/firebase/7.18.0/firebase-app.js"></script>
+  <script src="/__/firebase/7.18.0/firebase-analytics.js"></script>
+  <script src="/__/firebase/7.18.0/firebase-auth.js"></script>
+  <script src="/__/firebase/7.18.0/firebase-firestore.js"></script>
+  <script src="/__/firebase/init.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
