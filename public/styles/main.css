@@ -2,9 +2,29 @@ body {
     background: #DDDDDD;
 }
 
+.other-header {
+    text-decoration: underline;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+#myImage {
+    display: inline;
+    float: left;
+}
+
 .navbar {
     background-color: #800000;
     color: white;
+    display: flex;
+    justify-content: left;
+}
+
+#nelliePic {
+    width: 180px;
+    height: 262px;
+    float: right;
+    margin-bottom: 20px;
 }
 
 .page-container {
